@@ -6,7 +6,7 @@ import Home from './pages/Home.jsx'
 import Benefits from './pages/Benefits.jsx'
 import Application from './pages/Application.jsx'
 import AvailablePositions from './pages/AvailablePositions.jsx'
-import Navbar from './components/Navbar.jsx'
+import Navbar from '../components/Navbar.jsx'
 import Footer from './pages/Footer.jsx'
 import './main.css'
 ReactDOM.createRoot(document.getElementById('root')).render(

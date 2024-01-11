@@ -1,0 +1,42 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.Navbar img {
+  width: 125px;
+  height: 125px;
+  margin-left: 10px; /* Adjust the margin */
+}
+
+.Navbar a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 28px;
+  margin-right: 20px;
+  transition: color 0.3s ease-in-out; /* Add a smooth color transition on hover */
+}
+
+.Links {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.Links button {
+  padding: 8px 16px;
+  color: #FFFFFF;
+  background-color: #FF0000;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Navbar a:hover {
+  color: #FF0000;
+}
